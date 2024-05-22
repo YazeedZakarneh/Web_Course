@@ -1,0 +1,83 @@
+body {
+    background-color: #4895ef;
+    font-family: 'Staatliches', sans-serif;
+}
+
+div[class="panel pricing-table"] {
+    width: 50%;
+    height: 50%;
+    background-color: #ffffff;
+    padding: 0 30px;
+    border-radius: 2%;
+    margin: 140px 290px;
+    display: flex;
+    box-shadow: 0px 0px 40px -9px rgba(0, 0, 0, 0.7);
+}
+
+.pricing-plan {
+    width: 30%;
+    height: 30%;
+    padding: 30px 30px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.pricing-plan:nth-of-type(2) {
+    border-right: 2px solid #00000010;
+    border-left: 2px solid #00000010;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    font-size: small;
+    color: #118ab2;
+}
+
+ul li:nth-of-type(1) {
+    padding: 10px;
+    border-top: 1px solid #00000022;
+}
+
+ul li:nth-of-type(2) {
+    padding: 10px;
+    border-top: 1px solid #00000022;
+    border-bottom: 1px solid #00000022;
+}
+
+img {
+    width: 150px;
+    height: 100px;
+}
+
+h2 {
+    font-size: large;
+    font-weight: normal;
+    color: grey;
+}
+
+span {
+    color: #2667ff;
+    font-size: xx-large;
+}
+
+a {
+    border: thin solid #118ab277;
+    background-color: none;
+    color: #118ab2;
+    margin-top: 10px;
+    padding: 5% 20%;
+    font-weight: normal;
+    border-radius: 7%;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: #118ab2;
+}
